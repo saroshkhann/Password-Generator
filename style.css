@@ -86,6 +86,7 @@ body {
 .two {
   background-color: #ffffff29;
   backdrop-filter: blur(15px);
+  border-radius: 5px;
   padding: 2rem;
 }
 
