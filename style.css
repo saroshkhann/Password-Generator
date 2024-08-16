@@ -74,6 +74,13 @@ body {
 .password__history {
   text-align: center;
   color: #fff;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.password__history--span {
+  color: #019f55;
 }
 
 .two {
@@ -88,4 +95,5 @@ body {
   border-bottom: 1px solid #002339;
   font-size: 2rem;
   margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
