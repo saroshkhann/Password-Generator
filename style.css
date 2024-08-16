@@ -16,6 +16,8 @@ body {
 
 .password {
   margin: 12%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .password__heading {
@@ -26,6 +28,7 @@ body {
 
 .password__heading--underline {
   text-decoration: underline;
+  text-underline-offset: 15px;
   display: block;
   color: #019f55;
   font-size: 500;
@@ -36,7 +39,7 @@ body {
   outline: none;
   padding: 1.5rem;
   width: 40rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   border-radius: 5px;
   caret-color: #019f55;
   font-size: 1.5rem;
@@ -45,7 +48,7 @@ body {
 .password__icon {
   position: absolute;
   cursor: pointer;
-  top: 48%;
+  top: 51%;
   left: 39.5%;
   font-size: 2rem;
   color: #019f55;
@@ -56,7 +59,7 @@ body {
   border: none;
   background: none;
   background-color: #019f55;
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding: 1.4rem 2.8rem;
   color: #fff;
   font-size: 1.5rem;
@@ -66,4 +69,23 @@ body {
 .password__icon--btn {
   font-size: 2rem;
   margin-right: 0.5rem;
+}
+
+.password__history {
+  text-align: center;
+  color: #fff;
+}
+
+.two {
+  background-color: #ffffff29;
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+}
+
+.password__value {
+  color: #fff;
+  margin-top: 1rem;
+  border-bottom: 1px solid #002339;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
